@@ -23,7 +23,7 @@
   transition: all 0.3s ease;
 }
 body.light-theme {
-  background: url(assets/images/bg-desktop-light.jpg);
+  background: url(../images/bg-desktop-light.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -54,7 +54,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(assets/images/bg-desktop-dark.jpg);
+  background: url(../images/bg-desktop-dark.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   max-height: 150px;
