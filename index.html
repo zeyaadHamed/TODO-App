@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+    <title>TODO List</title>
+</head>
+<body>
+    <div class="todo_container">
+        <div class="heading_todo">
+            <h1>Todo</h1>
+            <div class="icon">
+                <img src="assets/images/icon-sun.svg" alt="sun-icon" id="icon">
+            </div>
+        </div>
+        <div class="input_todo">
+            <input type="text" placeholder="Create a new todo...." id="todo_input">
+            <input type="button" class="rounded-btn">
+        </div>
+        <div class="todo_body">
+            <div class="todoList_container">
+                <!-- Tasks will be added here -->
+            </div>
+            <div class="todo_categries">
+                <p class="items">
+                    <span class="count">0</span>
+                    items left
+                </p>
+                <div class="todo_desk_categries">
+                    <h4 class="all_category active">All</h4>
+                    <h4 class="active_category">Active</h4>
+                    <h4 class="completed_category">Completed</h4>
+                </div>
+                <div class="clear_completed">Clear Completed</div>
+            </div>
+        </div>
+        <div class="todoList_mob_categories">
+            <h4 class="all_category active">All</h4>
+            <h4 class="active_category">Active</h4>
+            <h4 class="completed_category">Completed</h4>
+        </div>
+        <p class="external_text">Drag and drop to reorder list</p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js"></script>
+    <script src="assets/main/script.js"></script>
+</body>
+</html>
